@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.con{
+    max-width: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #d0ffb2;
+}
+
+.navbar-brand {
+    font-weight: bold; 
+    font-size: 2.5vw !important;
+}
+
+.navbar-nav .nav-link {
+    color: #000000 !important; 
+    font-size: 18px; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff00d0 !important; 
+    text-decoration: underline !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff00d0 !important; 
+}
+
+.navbar-toggler {
+    border-color: #3700ff !important;
+    justify-content: center !important;
+    text-align: center !important; 
+    align-items: center !important;
+}
+
+#navbarSupportedContent{
+    justify-content: center !important;
+    text-align: center !important; 
+}
+
+.navbar-toggler-icon {
+    font-size: 2vw !important;
+    background-image: url("path/to/your-icon.svg"); 
+    width: 0px;
+    height: 0px;
+}
+
+
+.button {
+    width: auto;
+    height: auto;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 1.5vw; /* Adjust font size relative to viewport width */
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    transition-duration: 0.4s; /* Smooth transition */
+  }
+
+  .button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+
+
+.row{
+    max-width: 100%;
+}
+  .custom-border {
+    border: 2px solid #000; /* Border style */
+    padding: 10px;
+  }
+
+
+
+  .card {
+    margin: 30px 0px 30px 30px; /* Add gap between cards */
+    transition: transform 0.3s ease-in-out; /* Animation */
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+  }
+
+
+
+.container {
+    width: 100%; /* Ensure image fills its container */
+    max-width: 500px; /* Limit maximum width */
+    margin: 0 auto; /* Center the container */
+    overflow: hidden; /* Hide overflow for smoother animation */
+  }
+
+  .image {
+    width: 100%; /* Make the image fill its container */
+    height: 500px; /* Maintain aspect ratio */
+    display: block; /* Prevent inline element spacing */
+    transition: transform 0.3s ease-in-out; /* Add animation */
+    margin-bottom: 20px;
+  }
+
+  .container .image:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+  }
+
